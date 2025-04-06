@@ -3,10 +3,13 @@
 
 <head>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    <script type="module" src="index.js">
+        window.onload;
+    </script>
 </head>
 
 <body>
+    
     <div id="nav" class="banner">
         <img id="name" src="Pictures\LOGO3.png">
         <div class="tabs">
@@ -18,9 +21,17 @@
     </div>
 
     <div id="homePage">
-        <h1 id="fullName">Alexandra Chamas</h1>
+        <h1 class="header" id="fullName">Alexandra Chamas</h1>
         <p id="intro">
-            Hello! My name is Alexandra and I am a sophomore at Stony Brook University majoring in Computer Science. I am in the Computer Science Honors Program and in the Women in Science and Engineering Honors Program. My computer science journey has led me to develop a strong interest in data science. I am excited to explore how data can be used to solve complex problems and tell meaningful stories. Welcome to my website where you will find information about me, my projects, and my contact information. 
+            Hello! My name is Alexandra and I am a sophomore at Stony Brook University majoring in Computer Science.
+            Welcome to my website! This is where you will find information about me, my projects, and my contact
+            information.
+        </p>
+    </div>
+    <div id="aboutMe">
+        <h1 class="header">About Me</h1>
+        <p id="aboutMeBlurb">
+            I am in the Computer Science Honors Program and in the Women in Science and Engineering Honors Program. My journey in computer science started with a JavaScript course on Khan Academy, sparking my excitement for coding. This led me to participate in other programs such as Girls Who Code and Tech Scholars, both programs to support women interested in pursuing a career in the tech industry. These experiences led me to develop a strong interest in data science. I am excited to explore how data can be used to solve complex problems and tell meaningful stories. While I am still a student, I did complete one data science project, which is in the "Projects" tab of my website! Additionally, I participate in the Cybersecurity Club at Stony Brook University. In my free time, some of my hobbies include boxing, swimming, and crocheting.
         </p>
     </div>
 </body>

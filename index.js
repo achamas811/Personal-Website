@@ -1,5 +1,5 @@
-let nav = document.getElementById("nav");
+var aboutMe = document.getElementById('aboutMe');
 
-window.onload = function(){
-    nav.style.display = "block";
+window.onload = function () {
+    aboutMe.style.display = 'none';
 }

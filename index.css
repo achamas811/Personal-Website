@@ -33,7 +33,7 @@ body{
     /* flex:1; */
 }
 
-#fullName{
+.header{
     text-align: center;
 }
 #intro{
