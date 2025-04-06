@@ -9,14 +9,14 @@
 </head>
 
 <body>
-    
+
     <div id="nav" class="banner">
-        <img id="name" src="Pictures\LOGO3.png">
+        <a href="#"><img id="name" src="Pictures\LOGO3.png"></a>
         <div class="tabs">
-            <h2 id="home">Home</h2>
-            <h2 id="about">About Me</h2>
-            <h2 id="projects">Projects</h2>
-            <h2 id="contact">Contact Me</h2>
+            <h2 id="home"><a class="basic" href="#">Home</a></h2>
+            <h2 id="about"><a class="basic" href="#">About Me</a></h2>
+            <h2 id="projects"><a class="basic" href="#">Projects</a></h2>
+            <h2 id="contact"><a class="basic" href="#">Contact Me</a></h2>
         </div>
     </div>
 
@@ -31,19 +31,56 @@
     <div id="aboutMe">
         <h1 class="header">About Me</h1>
         <p id="aboutMeBlurb">
-            I am in the Computer Science Honors Program and in the Women in Science and Engineering Honors Program. My journey in computer science started with a JavaScript course on Khan Academy, sparking my excitement for coding. This led me to participate in other programs such as Girls Who Code and Tech Scholars, both programs to support women interested in pursuing a career in the tech industry. These experiences led me to develop a strong interest in data science. I am excited to explore how data can be used to solve complex problems and tell meaningful stories. While I am still a student, I did complete one data science project, which is in the "Projects" tab of my website! Additionally, I participate in the Cybersecurity Club at Stony Brook University. In my free time, some of my hobbies include boxing, swimming, and crocheting.
+            I am in the Computer Science Honors Program and in the Women in Science and Engineering Honors Program. My
+            journey in computer science started with a JavaScript course on Khan Academy, sparking my excitement for
+            coding. This led me to participate in other programs such as Girls Who Code and Tech Scholars, both programs
+            to support women interested in pursuing a career in the tech industry. These experiences led me to develop a
+            strong interest in data science. I am excited to explore how data can be used to solve complex problems and
+            tell meaningful stories. While I am still a student, I did complete one data science project, which is in
+            the "Projects" tab of my website! Additionally, I participate in the Cybersecurity Club at Stony Brook
+            University. In my free time, some of my hobbies include boxing, swimming, and crocheting.
         </p>
     </div>
     <div id="projectPage">
         <h1 class="header">Projects</h1>
-        <ul>
-            <li id="empower">Empowering Data</li>
-            <p></p>
+        <ul class="project">
+            <h2 id="empower" class="minorHeader">Empowering Data</h2>
+            <h3 class="projectItems">Description</h3>
+            <div class="projectItems" id="empowerDescription">This project explores the relationship between household
+                size and the average number of years for female schooling in Colombia and Peru. The data used is from
+                the "livwell135.csv" file. The data used for analysis is from 2000 - 2015. By analyzing this data, I was
+                able to answer the following research question: How do geographical, social, and economic events impact
+                a young woman&#39s ability to continue in school?</div>
+            <div class="projectItems">
+                <h3>Technologies Used </h3>
+                <ul>
+                <li>Python (Matplotlib, pandas)</li>
+                <li> Command Prompt/Terminal</li>
+                <li> Microsoft
+                    Visual Studio Code</li>
+                <li>Git and GitHub</li>
+                </ul>
+            </div>
+            <div class="projectItems">
+                <h3>What Did I Learn? </h3>
+                <ul>
+                <li>I learned how to use Python and some of its libraries</li>
+                <li>The results from
+                    this project show that there is a correlation between household size and the average number of years
+                    for
+                    female schooling in Colombia and Peru.</li>
+                <ul>
+                    <li>Disclaimer: A correlation does not imply causation!</li>
+                </ul>
+                </li>
+                </ul>
+                <br>
+                <div class="viewGit">
+                <a id="link1" class="projectItems" href="https://github.com/achamas811/Empowering-Data.git" target="_blank">View Source Code on
+                    GitHub</a>
+                    </div>
         </ul>
-        <h3>Relevant Coursework</h3>
-        <ul>
-            <li></li>
-        </ul>
+        
     </div>
 </body>
 

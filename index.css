@@ -17,15 +17,28 @@ body{
 }
 #home{
     padding:10px;
+    text-decoration: none;
+    color:black;
 }
 #about{
     padding:10px;
+    text-decoration: none;
+    color:black;
 }
 #projects{
     padding:10px;
+    text-decoration: none;
+    color:black;
 }
 #contact{
     padding:10px;
+    text-decoration: none;
+    color:black;
+}
+.basic{
+    text-decoration: none;
+    color:black;
+
 }
 .tabs{
     /* border: solid aqua 2px; */
@@ -50,5 +63,34 @@ body{
 
 }
 #empower{
-    text-align: left;
+    text-align: center;
+}
+#empowerDescription{
+    text-indent: 2em;
+}
+
+.project{
+    padding:0% 0% 0% 0%;
+    border: solid black 2px;
+    box-shadow:0px 4px 10px grey;
+    margin:40px;
+
+}
+.minorHeader{
+    border-bottom: solid black 2px;
+}
+.projectItems{
+    padding:0% 2% 0% 2%;
+}
+#link1{
+    background-color:black;
+    padding: 10px 16px;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+.viewGit{
+    display: flex;
+    justify-content: center;
+    padding-bottom:10px;
 }
