@@ -45,7 +45,10 @@ body{
     padding: 0% 20% 0% 20%;
 }
 #projectPage{
-    text-align: center;
+    /* text-align: center; */
     padding: 0% 20% 0% 20%;
 
+}
+#empower{
+    text-align: left;
 }
