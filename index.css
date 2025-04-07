@@ -101,12 +101,29 @@ body{
 .contactContainer{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .contactItems{
     display:inline
 }
 
 #lI{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+#gb{
+    height: 110px;
+    width: 110px;
+    margin: 10px;
+}
+#cal{
+    height: 140px;
+    width: 140px;
+    margin: 10px;
+}
+#mail{
+    height: 140px;
+    width: 140px;
+    margin: 10px;
 }
