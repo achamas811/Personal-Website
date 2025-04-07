@@ -57,6 +57,10 @@ body{
     text-align: center;
     padding: 0% 20% 0% 20%;
 }
+#aboutMeBlurb{
+    text-align: left;
+    text-indent: 2em;
+}
 #projectPage{
     /* text-align: center; */
     padding: 0% 20% 0% 20%;
@@ -93,4 +97,16 @@ body{
     display: flex;
     justify-content: center;
     padding-bottom:10px;
+}
+.contactContainer{
+    display: flex;
+    justify-content: center;
+}
+.contactItems{
+    display:inline
+}
+
+#lI{
+    height: 100px;
+    width: 100px;
 }
