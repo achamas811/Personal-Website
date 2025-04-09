@@ -100,18 +100,31 @@ body{
 }
 
 #contactMe{
-    display: inline;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* border:solid plum 2px; */
+    /* justify-content: center; */
+    /* justify-self: center; */
 }
 .contactMessage{
-    border:solid pink 2px;
-}
+    border:solid plum 2px;
+    /* float:left; */
+ }
 .contactContainer{
     margin:0px;
     padding:0px;
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: right; 
+    /* align-items: center; */
     border: solid aqua 2px;
+    flex:1;
+    width:50%;
+    /* display: inline; */
+    /* flex:1; */
+
+    
 }
 .contactItems{
     display:inline
@@ -136,4 +149,17 @@ body{
     height: 80px;
     width: 80px;
     margin: 10px;
+}
+
+.aboutServices{
+    display: flex;
+    justify-content: left;
+    /* float:right; */
+    /* flex:1; */
+    /* width:50%; */
+    border:solid pink 2px;
+  
+}
+#old_person_form{
+    justify-content: center;
 }
