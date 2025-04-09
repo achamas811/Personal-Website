@@ -89,15 +89,18 @@
     <div id="contactMe">
         <h1 class="header">Contact Me!</h1>
         <form id="old_person_form" action="MAILTO:alexandra.chamas@stonybrook.edu" method="post">
-            <label>Name: </label>
-            <input type="text" name="name">
-            <br>
-            <label>Phone Number: </label>
-            <input type="text" name="phone_number">
-            <br>
-            <label>Description of Desired Service</label>
-            <textarea type="text" name="describe"></textarea>
-            <br>
+            <!-- <label>Name: </label> -->
+            <div class = name_>
+            <input type="text" name="fname" placeholder="First Name">
+            <input type="text" name="lname" placeholder="Last Name">
+            </div>
+            <br><br>
+            <!-- <label>Phone Number: </label> -->
+            <input type="text" name="phone_number" placeholder="Phone Number">
+            <br><br>
+            <!-- <label>Description of Desired Service</label> -->
+            <input type="text" name="describe" placeholder="Description of Desired Service">
+            <br><br>
             <button type="submit">Submit</button>
         </form>
         <!-- <div class="aboutServices">
