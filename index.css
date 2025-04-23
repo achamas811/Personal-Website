@@ -1,5 +1,7 @@
 body{
     background-color: #fffef9;
+    font-family:garamond;
+    font-size:20px
 }
 #nav{
     display: flex;
@@ -48,16 +50,29 @@ body{
 
 .header{
     text-align: center;
+    font-size: 45px;
 }
 #homePage{
-    text-align: center;
+    display: inline;
     padding: 0% 20% 0% 20%;
+
+}
+#headshot{
+    float:right;
+    height:400px;
+    width:400px;
+    margin-left:15px;
+}
+
+#intro{
+    font-size: 30px;
 }
 #aboutMe{
-    text-align: center;
-    padding: 0% 20% 0% 20%;
+    text-align: center; 
+    padding: 0% 20% 0% 20%; 
+    float:left; 
 }
-#aboutMeBlurb{
+.aboutMeBlurb{
     text-align: left;
     text-indent: 2em;
 }
