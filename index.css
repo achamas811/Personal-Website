@@ -67,19 +67,33 @@ body{
 #intro{
     font-size: 30px;
 }
-#aboutMe{
-    text-align: center; 
-    padding: 0% 20% 0% 20%; 
-    float:left; 
+/* #aboutMe{ */
+    /* text-align: center;  */
+    /* padding: 0% 20% 0% 20%;  */
+    /* float:left;  */
+#funFact{
+    float:right;
+    height:45%;
+    width:45%;
+    margin-left:15px;
 }
+#aboutMe{
+    display: inline-block;
+    padding: 0% 20% 0% 20%;
+}
+/* #elevatorPitch{
+    float:left;
+} */
 .aboutMeBlurb{
     text-align: left;
     text-indent: 2em;
 }
+p{
+    font-size:24px;
+}
 #projectPage{
     /* text-align: center; */
     padding: 0% 20% 0% 20%;
-
 }
 #empower{
     text-align: center;
@@ -115,27 +129,23 @@ body{
 }
 
 #contactMe{
-
-    /* display: flex;
+    padding: 0% 20% 0% 20%;
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     /* border:solid plum 2px; */
     /* justify-content: center; */
     /* justify-self: center; */
 }
-.contactMessage{
-    border:solid plum 2px;
-    /* float:left; */
- }
 .contactContainer{
     margin:0px;
     padding:0px;
     display: flex;
-    justify-content: right; 
+    justify-content: center; 
     /* align-items: center; */
-    border: solid aqua 2px;
+    /* border: solid aqua 2px; */
     flex:1;
-    width:50%;
+    width:100%;
     /* display: inline; */
     /* flex:1; */
 
@@ -151,39 +161,12 @@ body{
     margin: 10px;
 }
 #gb{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     margin: 10px;
 }
 #cal{
     height: 80px;
     width: 80px;
     margin: 10px;
-}
-#mail{
-    height: 80px;
-    width: 80px;
-    margin: 10px;
-}
-
-.aboutServices{
-    display: flex;
-    justify-content: left;
-    /* float:right; */
-    /* flex:1; */
-    /* width:50%; */
-    border:solid pink 2px;
-  
-}
-#old_person_form{
-    text-align: center;
-}
-
-.name_{
-    display: inline;
-}
-
-input,textarea{
-    font-family: Arial, sans-serif;
-    font-size: 14px;
 }
