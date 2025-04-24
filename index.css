@@ -59,8 +59,8 @@ body{
 }
 #headshot{
     float:right;
-    height:400px;
-    width:400px;
+    height:40%;
+    width:40%;
     margin-left:15px;
 }
 
@@ -79,7 +79,7 @@ body{
 }
 #aboutMe{
     display: inline-block;
-    padding: 0% 20% 0% 20%;
+    padding: 0% 10% 0% 10%;
 }
 /* #elevatorPitch{
     float:left;
